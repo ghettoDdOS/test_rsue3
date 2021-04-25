@@ -16,6 +16,8 @@
 
 Также я сделал веб приложение на Django для просмотра расписания:
 
+![](https://i.ibb.co/7nG1JMt/sql3.png)
+
 ![](https://i.ibb.co/y5rfvhk/sql1.png)
 
 ![](https://i.ibb.co/ZMr2XJV/sql2.png)
