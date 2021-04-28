@@ -1,0 +1,116 @@
+body{
+    background-color: #222222;
+    font-size: 14px;
+}
+.n-type {
+    opacity: 0.5 !important;
+}
+.type {
+    opacity: 0.5;
+    color: #CDCFC9;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: right;
+}
+* {
+    word-break: break-word;
+    box-sizing: border-box;
+}
+div{
+    display: block;
+}
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row{
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.pair{
+    background-color: lightgray;
+    box-shadow: rgb(42 45 47) 0 1px 3px;
+    padding: 13px;
+    margin-bottom: 10px;
+    }
+.text-right {
+    text-align: right;
+}
+.lesson{
+    color: #CDCFC9;
+    text-shadow: 1px 1px 2px black, 0 0 2px white;
+}
+.prepod{
+    color: #CDCFC9;
+}
+.aud {
+    word-break: normal;
+    color: #CDCFC9;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+}
+@media (max-width: 765px) {
+    .day {
+        padding-top: 30px !important;
+    }
+    #nedelya {
+        margin-top: 20px;
+    }
+    .less {
+  		min-height: 30px !important;
+	}
+    .ned {
+   	    text-align: center;
+   	    margin-top: 25px;
+    }
+}
+.header{
+    color: black;
+}
+.group{
+    color: white;
+}
+.ned {
+    color: white;
+}
+#nedelya {
+    text-shadow: 1px 1px 2px black, 0 0 2px white;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 18px;
+    padding: 20px 10px 10px 0;
+    margin-bottom: 10px;
+}
+.day {
+    opacity: 70%;
+    background-color: #181A1B;
+    box-shadow: 0 1px 2px #08093f;
+    margin-bottom: 5px;
+    padding: 13px;
+}
+.time {
+    color: #CDCFC9;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+}
+.dropdown{
+    margin: 5px;
+}
+#dropdownMenuButton{
+    min-width: 330px;
+}
+.btn-primary{
+    background-color: #1D2021;
+    border-color: rgb(255 255 255);
+    margin: 10px;
+}
+
+.dayhead{
+    color: white;
+}
