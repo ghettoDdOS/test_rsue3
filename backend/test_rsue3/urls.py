@@ -17,8 +17,9 @@ from django.urls import path
 from raspisanie import views
 
 urlpatterns = [
-    path('', views.index),
-    path('raspisanie/', views.shedule),
-    path('prepod/', views.prepod),
-    path('aud/', views.audience)
+    path("", views.index),
+    path("raspisanie/", views.shedule),
+    path("prepod/", views.prepod),
+    path("aud/", views.audience),
+    path("check/", views.check_conn),
 ]
